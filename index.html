@@ -5,25 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relatório Cliente WhatssApp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <header>
-        <h1>Envio de Orçamento</h1>
-        <img src="/img/logo.png" alt="">
-    </header>
+    <div id="principal">
 
-    <article>
-        <p id="campoNumero">
-            Número WhatssApp: <input type="text" placeholder="Insira o número com DD" id="numCelular" name="numCelular">        
-        </p>
-        <div id="campoMensagem">
-            <textarea name="txtMensagem" id="txtMensagem" cols="30" rows="10" placeholder="Digite a mensagem aqui..."></textarea>
-        </div>
-        <input type="button" value="ENVIAR" id="botao" name="botao">
-    </article>        
+        <header>
+            <h1>Envio de Orçamento</h1>
+            <img src="/img/logo.png" alt="Imagem Logo">
+        </header>
 
-    <footer>
-        <p id="rodape">@IrineuAlmeidaJr</p>
-    </footer>
+        <section>
+            <div id="campoNumero">
+                <label for="numCelular">Número WhatssApp:</label>
+                <input type="text" placeholder="Insira número com DD" id="numCelular" name="numCelular">        
+            </div>
+            <div id="campoMensagem">
+                <textarea name="txtMensagem" id="txtMensagem" cols="38" rows="7" placeholder="Digite a mensagem aqui..."></textarea>
+            </div>
+            <input type="button" value="ENVIAR" id="botao" name="botao">
+        </section>        
+
+        <footer>
+            <p id="rodape">@IrineuAlmeidaJr</p>
+        </footer>
+
+    </div>
 </body>
 </html>
