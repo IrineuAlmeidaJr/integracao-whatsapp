@@ -1,2 +1,7 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+* linguist-vendored
+*.cshtml linguist-vendored=false
+*.html linguist-vendored=false
+
+*.cs linguist-detectable=true
+
+*.html linguist-language=javascript
